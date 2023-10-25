@@ -5,6 +5,11 @@ let operation;
 collectData();
 calculate(num1, num2, operation);
 
+function displayCar(color, make, model) {
+    console.log(`I own a ${color} ${make} ${model}.`);
+}
+displayCar("white", "Chevy");
+
 function calculate(x, y, operation) {
   let result;
   switch (operation) {
